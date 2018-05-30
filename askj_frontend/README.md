@@ -1,25 +1,19 @@
-# ReduxSimpleStarter
+# webpack-4-quickstart
+> Webpack 4 tutorial: All You Need to Know, from 0 Conf to Production Mode
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+[![Donate](https://img.shields.io/badge/donate-patreon-orange.svg)](https://www.patreon.com/valentinogagliardi)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE)
 
-### Getting Started
+## Development
 
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
+```bash
+npm i && npm run start
 ```
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+## Meta
 
-```
-> npm install
-> npm start
-```
+Valentino Gagliardi - [valentinog.com](https://www.valentinog.com) - valentino@valentinog.com
+
+## License
+
+This project is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
