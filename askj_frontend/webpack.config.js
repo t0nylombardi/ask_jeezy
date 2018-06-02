@@ -2,6 +2,7 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
+  mode: 'development',
   module: {
     rules: [
       {
@@ -25,6 +26,14 @@ module.exports = {
         use: [MiniCssExtractPlugin.loader, "css-loader"]
       }
     ]
+  },
+  devServer: {
+    headers: {
+      "Access-Control-Allow-Origin": "http://localhost:8080",
+      "Access-Control-Allow-Credentials": "true",
+      "Access-Control-Allow-Headers": "Content-Type, Authorization, x-id, Content-Length, X-Requested-With",
+      "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS"
+    }
   },
   plugins: [
     new HtmlWebPackPlugin({
