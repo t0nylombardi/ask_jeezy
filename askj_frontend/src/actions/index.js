@@ -8,8 +8,6 @@ export function fetchJeezy(){
 
   const request = axios.get(ROOT_URL)
 
-  console.log('Request:', request);
-
   return{
     type: FETCH_JEEZY,
     payload: request

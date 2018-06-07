@@ -20,7 +20,7 @@ class SearchBar extends Component {
   onFormSubmit(event) {
     event.preventDefault();
 
-    this.props.fetchJeezy();
+    this.props.fetchJeezy(this.state.term);
     this.setState({ term: '' })
   }
 
@@ -35,7 +35,7 @@ class SearchBar extends Component {
               onChange={this.onInputChange} />
           </div>
           <div className="control">
-            <a className="button is-info">Search</a>
+            <button type="submit" className="button is-info">Search</button>
           </div>
         </div>
       </form>

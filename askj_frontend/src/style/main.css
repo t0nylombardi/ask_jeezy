@@ -1,0 +1,16 @@
+body {
+    line-height: 2;
+}
+
+.home {
+	background: url('../img/background3.jpg') fixed;
+	background-size: cover;
+	background-position: 100% top;
+	background-color: #4d6377;
+}
+
+.answer {
+	color: #fff !important;
+	padding: 10px;
+	text-align: center;
+}
