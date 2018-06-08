@@ -1,24 +1,15 @@
-# README
+ASK JEEZY BACKEND
+===========
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+This is the backend to the react/rails app. 
 
-* Ruby version
+1. `bundle install`
 
-* System dependencies
+2. `bundle exec rake db:setup`
 
-* Configuration
+3. `rails s` 
 
-* Database creation
+4.  ...
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+5. profit 

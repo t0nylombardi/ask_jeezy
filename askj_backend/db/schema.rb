@@ -10,12 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2014_01_05_180043) do
+ActiveRecord::Schema.define(version: 2018_06_05_172709) do
 
   create_table "bible_chapters", force: :cascade do |t|
     t.text "chapter"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "bibles", force: :cascade do |t|
@@ -23,14 +23,8 @@ ActiveRecord::Schema.define(version: 2014_01_05_180043) do
     t.integer "chapter_no"
     t.integer "verse_no"
     t.text "verse_text"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "controllers", force: :cascade do |t|
-    t.string "front", limit: 255
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
